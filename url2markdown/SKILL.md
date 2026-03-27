@@ -74,14 +74,14 @@ curl -sL "https://defuddle.md/{original_url}"
 
 ```bash
 # 3a: agent-fetch（优先）
-npx agent-fetch "{original_url}" --json
+npx agent-fetch "{original_url}"
 ```
 
 如果 agent-fetch 失败或未安装：
 
 ```bash
 # 3b: defuddle CLI（兜底）
-defuddle parse "{original_url}" -m -j
+defuddle parse "{original_url}" --markdown
 ```
 
 如果以上所有方法均失败，告知用户：无法抓取该页面，可能原因（登录墙、严格反爬、地区限制），建议用户手动复制页面内容后粘贴给AI。
