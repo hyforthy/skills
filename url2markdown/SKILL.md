@@ -1,5 +1,5 @@
 ---
-name: markdown-proxy
+name: url2markdown
 description: |
   Convert any URL to clean Markdown with smart routing: WeChat articles via Playwright script, Feishu/Lark docs via API script, YouTube via yt-search-download skill, all other URLs via r.jina.ai → defuddle.md → agent-fetch cascade.
   Handles login-required, anti-scrape, and auth-walled pages that WebFetch cannot access.
@@ -9,7 +9,7 @@ description: |
   Supports: X/Twitter posts, WeChat Official Accounts, Feishu/Lark documents (docx/docs/wiki), YouTube videos, and standard web pages.
 ---
 
-# Markdown Proxy - URL to Markdown
+# url2markdown - URL to Markdown
 
 将任意 URL 转为干净的 Markdown。支持需要登录的页面和专有平台。
 
