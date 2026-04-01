@@ -21,6 +21,12 @@
 
 无需 npm 安装或构建步骤。脚本是单个自包含的 `.js` 文件。
 
+## 安装
+
+```bash
+npx skills add hyforthy/skills --skill session-viewer
+```
+
 ## 使用方法
 
 ### 通过 Claude Code（推荐）

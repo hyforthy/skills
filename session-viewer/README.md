@@ -1,6 +1,6 @@
 # Session Viewer
 
-> [中文说明](README-cn.md)
+> [中文说明](README.zh-CN.md)
 
 A local web UI for browsing, searching, and exploring your Claude Code conversation history.
 
@@ -20,6 +20,12 @@ A local web UI for browsing, searching, and exploring your Claude Code conversat
 - **Node.js** (any version that supports `require` — Node 14+)
 
 No npm install or build step required. The script is a single self-contained `.js` file.
+
+## Installation
+
+```bash
+npx skills add hyforthy/skills --skill session-viewer
+```
 
 ## Usage
 
